@@ -9,10 +9,10 @@
     
 }
 ::-webkit-scrollbar{
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     border-left: 1px solid #52ff02;
-    background-color: black;
+    background-color: rgb(41, 40, 40);
 }
 ::-webkit-scrollbar-thumb{
     background-color: #52ff02;
@@ -20,7 +20,7 @@
 }
 html{
     scroll-behavior: smooth;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -97,20 +97,24 @@ p{
     background-color: transparent;
     display: flex;
     margin-top: 25px;
-    column-gap: 10px;
+    column-gap: 35px;
 
 }
-.redes svg{
+.redes a {
     background-color: transparent;
+    color: #04f082;
+    
+    
+    
+    
+}
+.redes i{
+    background-color: transparent;
+    
+}
 
-    width: 60px;
-    height: 60px;
-}
-i{
-    background-color: transparent;
-}
-.redes svg:hover{
-    transform: scale(1.1);
+.redes a:hover{
+    transform: scale(1.5);
     transition: .2s; 
     box-shadow: 0px 0px 15px 8px #04f0822d;
     border-radius: 50%;   
@@ -135,8 +139,27 @@ p{
     background-color: transparent;
     color: #fff;
 }
-.section2{
+.container-sobre{
+    background-color: transparent;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.content-sobre{
+    background-color: transparent;
+    width: 40%;
+}
+.texto-sobre {
+    background-color: transparent;
+
+    
+}
+.texto-sobre p{
+    background-color: transparent;
     font-size: 1rem;
+    
 }
 #tecnologias{
     margin-top: 25px;
@@ -220,6 +243,9 @@ section{
     li{
         font-size: 15px;
     }
+    .content-sobre{
+        width: 60%;
+    }
 }
 @media (max-width: 600px) { 
     header{
@@ -237,6 +263,9 @@ section{
     }.slide{
         width: 90%;
         height: 60vh;
+    }
+    .content-sobre{
+        width: 90%;
     }
 }
 footer{
