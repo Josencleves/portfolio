@@ -5,8 +5,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: black;
-    
+    background-color: black;  
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -22,7 +21,6 @@ html{
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
-
 header{
     background-color: black;
     width: 100%;
@@ -33,12 +31,10 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0;
-    
+    top: 0;  
 } 
 nav{
-    width: 70%;
-    
+    width: 70%;  
 }
 .logo{
     width: 55px;
@@ -47,7 +43,6 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 li{
     line-height: 50px;
@@ -61,7 +56,8 @@ li:hover{
     background: rgba(4, 240, 130, 0.2);
     color: #52ff02;
     border-radius: 6px;
-    border-bottom: 3px solid #52ff02;
+    transition: .3s;
+    box-shadow: 0px 0px 15px 8px #52ff0277;
 }
 
 p{
@@ -82,7 +78,6 @@ p{
     width: 70%;
     display: flex;
     justify-content: space-around;
-
 }
 .texto{
     background-color: transparent;
@@ -98,28 +93,21 @@ p{
     display: flex;
     margin-top: 25px;
     column-gap: 35px;
-
 }
 .redes a {
     background-color: transparent;
-    color: #04f082;
-    
-    
-    
-    
+    color: #04f082; 
 }
 .redes i{
-    background-color: transparent;
-    
+    background-color: transparent;  
 }
-
 .redes a:hover{
-    transform: scale(1.5);
+    color: #52ff02;
+    transform: scale(1.2);
     transition: .2s; 
-    box-shadow: 0px 0px 15px 8px #04f0822d;
+    box-shadow: 0px 0px 15px 8px #52ff0233;
     border-radius: 50%;   
 }
-
 h1{
     background-color: transparent;
     padding-bottom: 20px;
@@ -152,14 +140,11 @@ p{
     width: 40%;
 }
 .texto-sobre {
-    background-color: transparent;
-
-    
+    background-color: transparent;   
 }
 .texto-sobre p{
     background-color: transparent;
     font-size: 1rem;
-    
 }
 #tecnologias{
     margin-top: 25px;
@@ -177,28 +162,22 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 #section1{
-    background-image: url(./imagem/section1.jpg);
-    background-size: cover;
-    
+    background-image: url(../imagem/section1.jpg);
+    background-size: cover;   
 }
 #section2{
-    background-image: url(./imagem/section2.png);
+    background-image: url(../imagem/section2.png);
     background-size: cover;
-    
 }
 #section3{
-    background-image: url(./imagem/section3.jpg);
+    background-image: url(../imagem/section3.jpg);
     background-size: cover;
-    
 }
 #section4{
-    background-image: url(./imagem/section4.png);
+    background-image: url(../imagem/section4.png);
     background-size: cover;
-    
 }
 .slide{
     margin-top: 15vh;
@@ -206,7 +185,7 @@ section{
     height: 60vh;
     background-color: rgb(12, 12, 12);
     border-radius: 20px;
-    box-shadow: 0px 0px 15px 8px #04f0822d;
+    box-shadow: 0px 0px 15px 8px #52ff023d;
 }
 .slide p{
     font-size: 24px;
@@ -233,12 +212,8 @@ section{
     transition: .5s;
     transform: scale(1.09);
     border-radius: 5px;
-    box-shadow: 0px 0px 15px 8px #04f0822d;
+    box-shadow: 0px 0px 15px 8px #52ff027a;
 }
-
-
-
-
 @media (max-width: 780px) { 
     li{
         font-size: 15px;
@@ -252,14 +227,12 @@ section{
         display: none;
     }
     .content{
-        width: 90%;
-        
+        width: 90%;       
     }
     .texto{
         background-color: rgba(0, 0, 0, 0);
         width: 100%;
         margin-right: 0%;
-        
     }.slide{
         width: 90%;
         height: 60vh;
@@ -277,7 +250,6 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 /*https://www.kelvinsanchez15.com/#portfolio
 
