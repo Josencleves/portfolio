@@ -5,13 +5,13 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: rgb(40, 40, 40);  
+    background-color: #1f1f1f;  
 }
 ::-webkit-scrollbar{
     width: 5px;
     height: 5px;
     border-left: 1px solid #52ff02;
-    background-color: rgb(40, 40, 40);
+    background-color: #1f1f1f;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #52ff02;
@@ -53,9 +53,9 @@ header{
     display: flex;
     column-gap: 25px;
 }
-.banner{
-    background-image: url(../imagem/android.png);
-    width: 45%;
+.banner img{
+    
+    width: 100%;
     height: 100%;
     background-size: cover;
 }

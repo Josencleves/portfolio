@@ -63,3 +63,25 @@ css
 
 
 Certifique-se de substituir "caminho-da-imagem.jpg" pela URL ou caminho da imagem que você deseja usar.
+
+
+==================================================================================
+
+
+Claro! Aqui está um exemplo básico de código HTML, CSS e JavaScript para criar um carrossel de imagens:
+
+HTML:
+html
+<div class="carousel">
+  <div class="carousel-container">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+  </div>
+  <button class="prev-btn">&#10094;</button>
+  <button class="next-btn">&#10095;</button>
+</div>
+
+
+==============================================================================================
+
